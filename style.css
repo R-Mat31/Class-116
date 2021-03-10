@@ -1,0 +1,19 @@
+h1{
+ font-size : 35px;
+}
+button:hover{
+ background-color : darkkhaki;
+}
+canvas{
+ animation-name : animation;
+ animation-duration : 4s;
+ animation-iteration-count : infinite;
+}
+@keyframes animation{
+ from{
+  box-shadow : cornflowerblue 1px 1px 35px;
+ }
+ to{
+  box-shadow : darkmagenta 1px 1px 35px;
+ }
+}
